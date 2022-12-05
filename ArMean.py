@@ -8,4 +8,4 @@ b = sum(a) / len(a)
 c = sum(i**2 for i in a) / n
 print('Arithmetical Mean =',b)
 disp = c - b**2
-print('Dispersion of array = ', disp)
+print('Variance of array = ', disp)
